@@ -68,7 +68,7 @@
 								{
 									"@type": "PropertyValue",
 									"propertyID": "commandTemplate",
-									"value": "oscar-cli service run demo -i {input}"
+									"value": "oscar-cli service run demo -i {input} -o {output} --raw-input --raw-output"
 								},
                 {
                   "@type": "PropertyValue",
