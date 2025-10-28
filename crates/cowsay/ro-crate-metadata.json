@@ -4,11 +4,13 @@
     {
       "@type": "CreativeWork",
       "@id": "ro-crate-metadata.json",
+      "subjectOf": [{ "@id": "#acceptance2" }],
       "conformsTo": {
         "@id": "https://w3id.org/ro/crate/1.1"
       },
       "about": {
-        "@id": "./"
+        "@id": "./",
+        "subjectOf": [{ "@id": "#acceptance" }]
       }
     },
     {
