@@ -72,6 +72,11 @@
 								},
                 {
                   "@type": "PropertyValue",
+                  "propertyID": "compareMethod",
+                  "value": "file"
+                },
+                {
+                  "@type": "PropertyValue",
                   "propertyID": "compareWith",
                   "value": "output.txt"
                 }
