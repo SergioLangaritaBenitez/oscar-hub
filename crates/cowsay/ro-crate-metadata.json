@@ -63,7 +63,7 @@
 							"@type": "ConsumeAction",
 							"name": "run",
 							"object": { "@id": "input.txt" },
-							"result": { "name": "#expected-output" },
+							"result": "#expected-output",
 							"additionalProperty": [
 								{
 									"@type": "PropertyValue",
