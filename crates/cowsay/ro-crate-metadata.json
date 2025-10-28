@@ -69,7 +69,12 @@
 									"@type": "PropertyValue",
 									"propertyID": "commandTemplate",
 									"value": "oscar-cli service run demo -i {input}"
-								}
+								},
+                {
+                  "@type": "PropertyValue",
+                  "propertyID": "compareWith",
+                  "value": "output.txt"
+                }
 							]
 						}
 					}
