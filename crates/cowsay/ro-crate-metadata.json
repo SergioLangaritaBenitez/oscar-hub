@@ -69,28 +69,20 @@
 									"@type": "PropertyValue",
 									"propertyID": "commandTemplate",
 									"value": "oscar-cli service run demo -i {input}"
-								}
-							]
-						}
-					},
-          {
-            "@type": "HowToStep",
-            "position": 2,
-            "name": "Compare output",
-            "potentialAction": {
-              "@type": "ConsumeAction",
-              "name": "compare",
-              "object": { "@id": "temp-output.txt" },
-              "result": { "@id": "output.txt" },
-              "additionalProperty": [
+								},
                 {
                   "@type": "PropertyValue",
-                  "propertyID": "commandTemplate",
-                  "value": "diff temp-output.txt output.txt > compare-result.txt"
+                  "propertyID": "compareMethod",
+                  "value": "diff"
+                },
+                {
+                  "@type": "PropertyValue",
+                  "propertyID": "compareWith",
+                  "value": "output.txt"
                 }
-              ]
-            }
-          }
+							]
+						}
+					}
 				]
 			},
     {
