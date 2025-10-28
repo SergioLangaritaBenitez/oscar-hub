@@ -73,7 +73,7 @@
                 {
                   "@type": "PropertyValue",
                   "propertyID": "compareMethod",
-                  "value": "file"
+                  "value": "diff"
                 },
                 {
                   "@type": "PropertyValue",
