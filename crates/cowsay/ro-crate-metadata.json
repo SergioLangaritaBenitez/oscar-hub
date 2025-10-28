@@ -71,15 +71,10 @@
 									"value": "oscar-cli service run demo -i {input}"
 								},
                 {
-                  "@type": "PropertyValue",
-                  "propertyID": "compareMethod",
-                  "value": "diff"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "propertyID": "compareWith",
-                  "value": "output.txt"
-                }
+                "@type": "PropertyValue",
+                "propertyID": "expectedOutput",
+                "value": "Hello World2"
+              }
 							]
 						}
 					}
