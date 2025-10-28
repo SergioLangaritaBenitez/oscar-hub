@@ -63,22 +63,39 @@
 							"@type": "ConsumeAction",
 							"name": "run",
 							"object": { "@id": "input.txt" },
-							"result": { "@id": "output.txt" },
+							"result": { "@id": "temp-output.txt" },
 							"additionalProperty": [
 								{
 									"@type": "PropertyValue",
 									"propertyID": "commandTemplate",
 									"value": "oscar-cli service run demo -i {input}"
-								},
-                {
-                "@type": "PropertyValue",
-                "propertyID": "expectedOutput",
-                "value": "Hello World2"
-              }
+								}
 							]
 						}
-					}
-			
+					},
+          {
+            "@type": "HowToStep",
+            "position": 2,
+            "name": "Compare output",
+            "potentialAction": {
+              "@type": "ConsumeAction",
+              "name": "compare",
+              "object": { "@id": "temp-output.txt" },
+              "result": { "@id": "output.txt" },
+              "additionalProperty": [
+                {
+                  "@type": "PropertyValue",
+                  "propertyID": "compareMethod",
+                  "value": "diff"
+                },
+                {
+                  "@type": "PropertyValue",
+                  "propertyID": "compareWith",
+                  "value": "output.txt"
+                }
+              ]
+            }
+          }
 				]
 			},
     {
