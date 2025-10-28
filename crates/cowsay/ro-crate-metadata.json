@@ -68,7 +68,7 @@
 								{
 									"@type": "PropertyValue",
 									"propertyID": "commandTemplate",
-									"value": "oscar-cli service run cowsay -i {input}"
+									"value": "oscar-cli service run demo -i {input}"
 								},
                 {
                   "@type": "PropertyValue",
