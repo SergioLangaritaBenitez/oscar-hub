@@ -96,6 +96,12 @@
       "encodingFormat": "text/yaml"
     },
     {
+      "@id": "output.txt",
+      "@type": "File",
+      "name": "Expected output file"
+    },
+
+    {
       "@id": "script.sh",
       "@type": [
         "File",
