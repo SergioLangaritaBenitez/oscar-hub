@@ -85,13 +85,8 @@
               "additionalProperty": [
                 {
                   "@type": "PropertyValue",
-                  "propertyID": "compareMethod",
-                  "value": "diff"
-                },
-                {
-                  "@type": "PropertyValue",
-                  "propertyID": "compareWith",
-                  "value": "output.txt"
+                  "propertyID": "commandTemplate",
+                  "value": "diff temp-output.txt output.txt > compare-result.txt"
                 }
               ]
             }
