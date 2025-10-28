@@ -15,6 +15,7 @@
     },
     {
       "@id": "./",
+      "subjectOf": [{ "@id": "#acceptance2" }],
       "@type": [
         "Dataset",
         "Service",
