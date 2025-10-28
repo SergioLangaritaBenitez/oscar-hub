@@ -68,7 +68,7 @@
 								{
 									"@type": "PropertyValue",
 									"propertyID": "commandTemplate",
-									"value": "oscar-cli service run demo -i {input} -o {output} --raw-input --raw-output"
+									"value": "oscar-cli service run demo -i {input}"
 								},
                 {
                   "@type": "PropertyValue",
@@ -78,7 +78,7 @@
                 {
                   "@type": "PropertyValue",
                   "propertyID": "compareWith",
-                  "value": "output.txt"
+                  "value": "output"
                 }
 							]
 						}
@@ -96,9 +96,9 @@
       "encodingFormat": "text/yaml"
     },
     {
-      "@id": "output.txt",
+      "@id": "output",
       "@type": "File",
-      "name": "Expected output file"
+      "name": "output.txt"
     },
 
     {
